@@ -11,7 +11,7 @@ To learn about MitM (Man in the Middle) attack, catch traffic from a host inside
 ## **Results:**
 Nmap has successfully found the target (my phone) and its IP address (192.168.1.125). It has also discovered my router's IP address (192.168.1.254).
 
-![Pinging hosts within the network using Nmap](https://github.com/J1W00luv/ARP-poisoning/blob/main/screenshots/searchingHosts.png)
+![Pinging hosts within the network using Nmap](https://github.com/J1W00luv/ARP-poisoning/blob/main/screenshots/searchingHost.png)
 
 I have then used arpspoof to re-direct traffic to/from the target device, to the Kali interface.
 
@@ -28,4 +28,5 @@ As the result of this investigation, protocols not using SSL or TLS connections,
 
 ## **Next steps:**
 Learn how to use ettercap to automatise traffic sniffing process, instead of doing it manually. This tool can also auto-detect vulnerable packets that use HTTP/TELNET. It also allows learning about traffic altering.
+
 
